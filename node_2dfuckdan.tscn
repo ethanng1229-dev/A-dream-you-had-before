@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://dkgwr06ujj0xu"]
+
+[ext_resource type="PackedScene" uid="uid://btopsst6uttex" path="res://node_2d if wrong.tscn" id="1_m4pu8"]
+[ext_resource type="Texture2D" uid="uid://3iixckbg7dyb" path="res://Screenshot 2026-02-28 at 5.46.06 pm.png" id="1_u8kp0"]
+[ext_resource type="PackedScene" uid="uid://53eddl710t7t" path="res://node_2d background.tscn" id="2_u8kp0"]
+
+[node name="Node2D" type="Node2D" unique_id=486830513]
+
+[node name="TextureRect" type="TextureRect" parent="." unique_id=1604952486]
+offset_left = -366.0
+offset_top = 2.0
+offset_right = 629.0
+offset_bottom = 682.0
+texture = ExtResource("1_u8kp0")
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect" unique_id=1384577207]
+layout_mode = 0
+offset_left = 948.0
+offset_top = -2.0
+offset_right = 1943.0
+offset_bottom = 678.0
+texture = ExtResource("1_u8kp0")
+
+[node name="Node2D" parent="." unique_id=2018475862 instance=ExtResource("1_m4pu8")]
+
+[node name="Node2D2" parent="." unique_id=982718469 instance=ExtResource("2_u8kp0")]
